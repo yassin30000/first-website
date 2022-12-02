@@ -1,0 +1,70 @@
+.nav{
+    background-color: #BBDB9B;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+
+.nav a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Alegreya Sans SC'; 
+    font-size: 22px;
+}
+
+
+
+h1,
+h2,
+p{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+img{
+    display: block;
+    margin: auto;
+    padding: 15px;
+}
+
+.container{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+body{
+    background-color: #ABC4A1;
+}
+
+*{
+    font-family: 'Alegreya Sans SC'; 
+    margin: 0;
+    padding: 0;
+}
+
+/*Page 2*/
+
+fieldset{
+    border: 2px dashed #9DB4AB;
+}
+
+input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/*page 4*/
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    justify-content: space-around;
+}
